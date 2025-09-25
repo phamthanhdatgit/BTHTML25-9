@@ -1,0 +1,14 @@
+h2{
+    color:red;
+    text-align:center;
+}
+table{
+    border:2px solid black;
+    border-collapse:collapse;
+    margin:auto;
+    padding:auto;
+}
+.password{
+    display:block;
+    margin:0 auto;
+}
