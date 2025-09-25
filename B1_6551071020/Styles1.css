@@ -1,0 +1,35 @@
+h1{
+    text-align:center;
+    color:green;
+}
+h3{
+   color:blue;
+   text-decoration: underline;
+}
+h2{
+    color:magenta;
+    background-color:pink;
+    text-align:center;
+}
+.container{
+    width:auto;
+    margin:auto;
+    background-color:lightyellow;
+}
+.p1{
+    color:blue;
+    font-style: italic;
+    text-align:center;
+}
+.p2{
+    color:red;
+    font-style:italic;
+}
+.p3{
+    color:green;
+    font-style:italic
+}
+hr{
+    margin:auto;
+    width:10%;
+}
