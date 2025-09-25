@@ -1,0 +1,36 @@
+h2{
+    color:green;
+    text-align:center;
+}
+table{
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:auto;
+    padding:auto;
+}
+.accept{
+    display:block;
+    margin:0 auto;
+}
+th{
+    color:green;
+    text-align:left;
+    text-decoration:none;
+}
+.p{
+    color:green;
+}
+label{
+    color:green;
+    display:inline;
+    text-align:center;
+}
+.a{
+    width:200px;
+}
+.b{
+    width:150px;
+}
+.c{
+    width:100px;
+}
