@@ -1,0 +1,53 @@
+h1{
+    color:blue;
+    text-align:center;
+}
+table{
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:auto;
+    padding:auto;
+}
+.p{
+    color:blue;
+}
+.q{
+    color:brown;
+    font-style: italic;
+}
+th{
+    color:blue;
+    text-align:left;
+    text-decoration:none;
+}
+label{
+    color:blue;
+    display:inline;
+    text-align:center;
+}
+.accept{
+    display:block;
+    margin:0 auto;
+}
+.r{
+    color:blue;
+    border:2px solid brown;
+    width:300px;
+    height:40px;
+    margin:0 auto;
+}
+.e{
+    overflow:scroll;
+}
+.a{
+    width:250px;
+}
+.b{
+    width:200px;
+}
+.c{
+    width:150px;
+}
+.d{
+    width:50px;
+}

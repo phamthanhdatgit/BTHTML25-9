@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <link href="Styles9/Styles9.css" rel="stylesheet">
+        <h1>Đăng ký du lịch</h1>
+    </head>
+    <body>
+        <table border="1" cellspacing="0" cellpadding="2">
+            <tr>
+                <td class="p">Họ và tên</td>
+                <td><input type="text" class="a"></td>
+            </tr>
+            <tr>
+                <td class="p">Địa chỉ</td>
+                <td><input type="text" class="b"></td>
+            </tr>
+            <tr>
+                <td class="p">Điện thoại</td>
+                <td><input type="tel" class="c"></td>
+            </tr>
+            <tr>
+                <td class="p">Khách Việt Nam</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td class="p">Chọn tour</td>
+                <td>
+                    <select name="Roadmap">
+                    <option value=""></option>
+                    <option value="QN-BĐ-PY">Quảng Ngãi-Bình Định-Phú Yên</option>
+                    <option value="BD-HCM-VT">Bình Dương-Thành phố Hồ Chí Minh-Vũng Tàu</option>
+                    <option value="KH-NT-BT">Khánh Hòa-Ninh Thuận-Bình Thuận</option></select></td>
+            </tr>
+            <tr>
+                <td class="p">Phương tiện</td>
+                <td>
+                <input type="radio" name="Phương tiện" value="Máy bay">
+                <label for="transp1">Máy bay</label> 
+                <input type="radio" name="Phương tiện" value="Xe ô tô">
+                <label for="transp2">Xe ô tô</label><br/><br/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset class="r">
+                        <legend class="q">Số lượng đoàn khách</legend>
+                        <span>Người lớn <input type="text" name="Hành khách" class="d"></span>   <span>Trẻ em <input type="text" name="Hành khách" class="d"></span>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td class="p">Ghi chú thêm</td>
+                <td>
+                    <textarea cols="30" rows="5" class="e"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" name="btnSubmit" value="Đồng ý" class="accept"></td>
+            </tr>
+        </table>
+    </body>
+</html>
